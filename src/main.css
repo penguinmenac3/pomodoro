@@ -1,0 +1,34 @@
+
+.progressbar {
+  display: block;
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  right: 0em;
+  bottom: 0em;
+  background-color: var(--color-brand-hover);
+}
+
+.fill {
+  display: block;
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  bottom: 0em;
+  border-radius: var(--radus-large);
+  background-color: var(--color-debug);
+}
+
+.text {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4em;
+  translate: -50% -50%;
+  padding: 1em;
+  font-size: 3em;
+  border-radius: var(--radius);
+  background-color: var(--color-base-transparent-2);
+}
